@@ -40,12 +40,18 @@
 %% The amsthm package provides extended theorem environments
 %% \usepackage{amsthm}
 
+%% The ragged2e package adds text centering
+\usepackage[document]{ragged2e}
+
+% use newlines as newlines, instead of \newline
+\usepackage{parskip}
+
 %% The lineno packages adds line numbers. Start line numbering with
 %% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
 %% for the whole article with \linenumbers.
 %% \usepackage{lineno}
 
-\journal{Nuclear Physics B}
+\journal{Applied Soft Computing}
 
 \begin{document}
 
@@ -76,7 +82,7 @@
 %%            country={}}
 %% \fntext[label3]{}
 
-\title{}
+\title{Multi-objective optimisation of offshore wind farm (OWF) site locations and boundaries in the English Channel}
 
 %% use optional labels to link authors explicitly to addresses:
 %% \author[label1,label2]{}
@@ -94,18 +100,17 @@
 %%             state={},
 %%             country={}}
 
-\author{}
-
-\affiliation{organization={},%Department and Organization
-            addressline={}, 
-            city={},
-            postcode={}, 
-            state={},
-            country={}}
+\author{Zachary Smith}
+\affiliation{organization={University of Plymouth},%Department and Organization
+            %%addressline={},
+            city={Plymouth},
+            postcode={PL4}, 
+            state={Devon},
+            country={England}}
 
 \begin{abstract}
 %% Text of abstract
-
+Some text
 \end{abstract}
 
 %%Graphical abstract
@@ -121,13 +126,66 @@
 
 \begin{keyword}
 %% keywords here, in the form: keyword \sep keyword
-
+Evolutionary Computing \sep Multi-objective Optimisation \sep Power and Energy \sep Process Optimisation
 %% PACS codes here, in the form: \PACS code \sep code
-
 %% MSC codes here, in the form: \MSC code \sep code
 %% or \MSC[2008] code \sep code (2000 is the default)
-
 \end{keyword}
+
+\clearpage
+
+\begin{Center}
+\textbf{MULTI-OBJECTIVE OPTIMISATION OF OFFSHORE WIND FARM SITE LOCATIONS AND BOUNDARIES IN THE ENGLISH CHANNEL}
+
+by
+
+\textbf{Zachary Smith}
+
+
+Thesis submitted to University of Plymouth
+
+in partial fulfilment of the requirements for the degree of
+
+
+\textbf{\textit{MSc Artificial Intelligence}}
+
+
+\textbf{University of Plymouth }
+\textbf{Faculty of Science \& Engineering}
+
+
+September 2022
+\end{Center}
+
+\vspace*{\fill} %% vertical fill whitespace to move text to bottom of the page
+{\raggedleft Elsevier Applied Soft Computing\par}
+\clearpage
+
+\textbf{Masters Dissertation licence}:
+
+This material has been deposited in the Plymouth University Learning \& Teaching repository under the terms of the student contract between the students and the Faculty of Science \& Engineering.
+
+The material may be used for internal use only to support learning and teaching.
+
+Materials will not be published outside of the University and any breaches of this licence will be dealt with following the appropriate University policies.
+
+\textbf{Copyright Statement}:
+
+This copy of the thesis has been supplied on condition that anyone who consults it is understood to
+recognise that its copyright rests with the author and that no quotation from the thesis and no
+information derived from it may be published without the author’s prior written consent.
+
+\clearpage
+
+\textbf{Acknowledgements}:
+
+The author would like to thank their family, partner and friends for their support whilst completing this thesis. 
+
+Special thanks also to Dr. David Walker, for supervising the project.
+
+The author would like to acknowledge the National Oceanic and Atmospheric Administration (U.S. Department of Commerce) and ADMIRALTY Maritime Data Solutions (U.K. Hydrographic Office) for providing open-access to the wind velocity potential and bathymetric datasets (respectively) which enabled this project.
+
+\clearpage
 
 \end{frontmatter}
 
@@ -147,20 +205,18 @@
 %% If you have bibdatabase file and want bibtex to generate the
 %% bibitems, please use
 %%
-%%  \bibliographystyle{elsarticle-harv} 
-%%  \bibliography{<your bibdatabase>}
+\bibliographystyle{elsarticle-harv} 
+\bibliography{mybibliography}
 
 %% else use the following coding to input the bibitems directly in the
 %% TeX file.
-
-\begin{thebibliography}{00}
-
+%%
+%%\begin{thebibliography}{00}
 %% \bibitem[Author(year)]{label}
 %% Text of bibliographic item
+%%\bibitem[ ()]{}
+%%\end{thebibliography}
 
-\bibitem[ ()]{}
-
-\end{thebibliography}
 \end{document}
 
 \endinput

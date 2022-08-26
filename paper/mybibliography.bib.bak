@@ -1,0 +1,38 @@
+@Article{Deb2002,
+  author    = {Deb, K and Pratap, A and Agarwal, S and Meyarivan, T},
+  journal   = {IEEE Transactions on Evolutionary Computation},
+  title     = {A fast and elitist multiobjective genetic algorithm: NSGA-II},
+  year      = {2002},
+  month     = {4},
+  number    = {2},
+  pages     = {182-197},
+  volume    = {6},
+  date      = {2002-04},
+  doi       = {10.1109/4235.996017},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+}
+
+@Article{Kalnay1996,
+  author    = {Kalnay, E and Kanamitsu, M and Kistler, R and Collins, W and Deaven, D and Gandin, L and Iredell, M and Saha, S and White, G and Woollen, J and Zhu, Y and Leetmaa, A and Reynolds, R and Chelliah, M and Ebisuzaki, W and Higgins, W and Janowiak, J and Mo, K and Ropelewski, C and Wang, J and Jenne, Roy and Joseph, Dennis},
+  journal   = {Bulletin of the American Meteorological Society},
+  title     = {The NCEP/NCAR 40-Year Reanalysis Project},
+  year      = {1996},
+  month     = {3},
+  number    = {3},
+  pages     = {437-471},
+  volume    = {77},
+  date      = {1996-03},
+  doi       = {10.1175/1520-0477(1996)077<0437:tnyrp>2.0.co;2},
+  publisher = {American Meteorological Society},
+}
+
+@Software{Hadka2020,
+  author  = {David Hadka},
+  month   = apr,
+  title   = {Platypus - Multiobjective Optimization in Python},
+  url     = {https://github.com/Project-Platypus/Platypus},
+  version = {1.0.4},
+  year    = {2020},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

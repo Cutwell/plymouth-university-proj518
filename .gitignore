@@ -1,3 +1,10 @@
+.DS_Store
+
+*.csv
+*.nc
+data/AIS_Grid_2015_MMO
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
